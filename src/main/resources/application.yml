@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 192.168.203.20
+    username: mrfeng
+    password: 123
+    port: 5672
+    virtual-host: /jt
