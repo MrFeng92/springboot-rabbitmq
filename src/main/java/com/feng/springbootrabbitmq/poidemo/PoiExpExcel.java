@@ -92,8 +92,8 @@ public class PoiExpExcel
         try
         {
             ZipFile zipFile = new ZipFile(dst_file);
-            zipFile.setFileNameCharset("gbk");
-            zipFile.addFile(file, parameters);
+//            zipFile.setFileNameCharset("gbk");
+//            zipFile.addFile(file, parameters);
 
         } catch (Exception e)
         {
